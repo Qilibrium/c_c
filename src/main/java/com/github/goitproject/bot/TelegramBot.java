@@ -11,8 +11,8 @@ import java.util.Map;
 public class TelegramBot extends TelegramLongPollingBot {
 
     private final ButtonContainer buttonContainer;
-    private static final String BOT_USER_NAME = "Currency_Exchange_CoIT_Bot";
-    private static final String TOKEN = "5751558801:AAFa8sEoRF4LIXBNbsHkL1q_S-LaTCf-8J0";
+    private static final String BOT_USER_NAME = "CurrencyExchangeGoBot";
+    private static final String TOKEN = "5678614363:AAGFa3P6WT-RT3klAz6G8WLp0F5QagXZgVg";
 
     public TelegramBot() {
         this.buttonContainer = new ButtonContainer(new SendMessageBotService(this));
