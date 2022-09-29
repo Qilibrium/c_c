@@ -10,6 +10,8 @@ import java.util.Map;
 
 public class TelegramBot extends TelegramLongPollingBot {
 
+    //web: java $JAVA_OPTS -jar build/libs/*-all.jar
+
     private final ButtonContainer buttonContainer;
     private static final String BOT_USER_NAME = "CurrencyExchangeGoBot";
     private static final String TOKEN = "5678614363:AAGFa3P6WT-RT3klAz6G8WLp0F5QagXZgVg";
